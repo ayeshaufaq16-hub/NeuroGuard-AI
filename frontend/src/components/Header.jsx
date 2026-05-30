@@ -1,10 +1,11 @@
-function Header() {
+export default function Header() {
   return (
-    <div className="header">
+    <div className="hero">
       <h1>NeuroGuard AI</h1>
-      <p>Safe • Explainable • Intelligent</p>
+
+      <p>
+        Hybrid Explainable AI Assistant
+      </p>
     </div>
   );
 }
-
-export default Header;
